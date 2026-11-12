@@ -11,7 +11,7 @@ jobs:
           distribution: 'temurin'
       - uses: gradle/actions/setup-gradle@v4
         with:
-          gradle-version: '8.14'
+          gradle-version: '8.10'
       - name: Build with Gradle
         run: gradle build
       - uses: actions/upload-artifact@v4
