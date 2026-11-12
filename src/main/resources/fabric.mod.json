@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "soundplayer",
+  "version": "${version}",
+  "name": "Sound Playlist Player",
+  "description": "A client-side music player and playlist manager for /playsound sound events.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.soundplayer.SoundPlayerClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
